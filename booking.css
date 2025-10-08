@@ -1,10 +1,84 @@
+.nav1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav2 {
+    color: orange;
+}
+
+header .nav-bar {
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    justify-content: space-between;
+    /* background: lightcyan; */
+    /* height: 70px;
+    width: 100%; */
+
+}
+
+.nav-bar .nav-menu {
+    display: flex;
+    /* gap: 90px; */
+    margin-right: 150px;
+    
+
+}
+
+.nav-bar .nav-menu .nav-link {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 40px; */
+    width: auto;
+    padding: 0.75rem 1.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+   
+}
+
+.nav-bar .nav-menu .nav-link a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.logo1{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.li{
+    color: black;
+    font-family: sans-serif;
+}
+#cover2{
+    margin-top: 90px;
+    font-size: 72px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50vw;
+
+}
+.cover3{
+    font-size: 50px;
+    margin-top: 90px;
+    color: rgb(169, 99, 13);
+}
+h6{
+    width: 350px;
+    margin-top: 25px;
+}
 .box{ 
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-.app{
-    background-color: darkorange;
-    
+form{
+    background-color: darkorange; height: 40vh;
+    display: flex;
+    flex-direction: column;
+
 }
