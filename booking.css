@@ -70,15 +70,63 @@ h6{
     width: 350px;
     margin-top: 25px;
 }
-.box{ 
+.boxs{ 
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-form{
-    background-color: darkorange; height: 40vh;
-    display: flex;
-    flex-direction: column;
+.aap{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+input{
+    border-color: rgb(196, 154, 236);
+    border-radius: 10px;margin-top: 10px;
+
+}
+select{
+    border-color: rgb(196, 154, 236);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+form{
+    background-color:orange ;
+    display: flex; 
+       flex-direction: column;
+       
+
+}
+.box{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding:40px 0 20px;
+    font-family: Arial, sans-serif;
+}
+.box1{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 40px
+
+}
+.box6{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size:19px;
+    font-weight: 600;
+    margin-top: 30px;
 }
