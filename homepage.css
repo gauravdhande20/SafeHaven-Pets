@@ -50,6 +50,9 @@ header .nav-bar {
     line-height: 19px;
    
 }
+li a{
+    text-decoration: none;
+}
 
 .nav-bar .nav-menu .nav-link a {
     display: flex;
