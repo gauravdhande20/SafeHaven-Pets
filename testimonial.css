@@ -47,7 +47,38 @@
     justify-content: space-between;
     color: black;
 }
-.vns{
+.am{
+    height: 300px;
+    width: 300px;
+}
+.bha{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+}
+.ef{
+        border-radius: 10px;
+    border: 2px solid;
+    align-items: center;
+    display: flex
+;
+    flex-direction: column;
+}
+.ab{
+    width: 450px;
+    
+
+}
+.am img{
+    width: 89%;
+
+}
+.ab {
+    margin-top: 40px;
+}
+vns{
     display: flex;
     align-items: center;
     justify-content: center;
